@@ -7,5 +7,5 @@ CREATE TABLE `messages` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB;
 
-INSERT INTO messages (key, message)
+INSERT INTO `messages` (`key`, `message`)
 VALUES ('HelloWorld', 'A simple hello world.');
