@@ -1,3 +1,3 @@
 #!/bin/bash
 
-mysql ${mysql_flags} < schema.sql
+mysql ${mysql_flags} < mysql-init/schema.sql
